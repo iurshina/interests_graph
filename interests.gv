@@ -43,7 +43,7 @@ graph {
 	184 [label="Ancient Greek", fontsize=8, group=4];
 	174 [label="Nordic languages", fontsize=8, group=4];
 	1741 [label=Icelandic, fontsize=7, group=4];
-	1141 [label=Semantics, fontsize=7, group=4];
+	1141 [label=semantics, fontsize=7, group=4];
 
 	105 [label=art, fontsize=10, group=5];
 	115 [label=literature, fontsize=8, group=5];
@@ -82,6 +82,7 @@ graph {
 	114 -- 1141;
 	107 -- 117;
 	1141 -- 117;
+	123 -- 1141;
 	117 -- 1171;
 	127 -- 107;
 	137 -- 107;
@@ -102,6 +103,8 @@ graph {
 	106 -- 116;
 	106 -- 126;
 	102 -- 108;
+	103 -- 108;
+	1114 -- 108;
 	102 -- 103;
 	102 -- 1114;
 	111 -- 1114;
