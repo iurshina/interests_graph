@@ -1,0 +1,108 @@
+graph {
+    graph [charset=latin1, overlap_scaling=3, pack=90];
+    node [label="\N", width="0.001", height="0.001", margin="0.001"];
+
+	100 [label="."];
+
+	101 [label="software engineering & CS", fontsize=10, group=1];
+	111 [label="programming languages", fontsize=8, group=1];
+	1111 [label=Java, fontsize=7, group=1];
+	1112 [label=python, fontsize=7, group=1];
+	1114 [label=prolog, fontsize=7, group=1];
+	1113 [label="functional programming", fontsize=7, group=1];
+	121 [label="algorithms & data structures", fontsize=8, group=1];
+
+	102 [label=math, fontsize=10, group=2];
+
+	108 [label=logic, fontsize=9, group=8];
+
+	106 [label="machine learning", fontsize=10, group=6];
+	116 [label="deep learning", fontsize=8, group=6];
+	126 [label="probabilistic inference", fontsize=8, group=6];
+
+	107 [label=NLP, fontsize=10, group=7];
+	117 [label="distributional semantics", fontsize=8, group=7];
+	1171 [label="word embeddings", fontsize=7, group=7];
+	127 [label="automatic summarization", fontsize=8, group=7];
+	137 [label="semantic similarity", fontsize=8, group=7];
+	147 [label="information retrieval", fontsize=8, group=7];
+
+	103 [label=philosophy, fontsize=10, group=3];
+	113 [label=aesthetic, fontsize=8, group=3];
+	123 [label="philosophy of language", fontsize=8, group=3];
+	133 [label=ethics, fontsize=8, group=3];
+	143 [label="philosophy of mind", fontsize=8, group=3];
+	153 [label=epistemology, fontsize=8, groups=3];
+
+	104 [label=languages, fontsize=10, group=4];
+	114 [label=linguistics, fontsize=8, group=4];
+	124 [label=English, fontsize=8, group=4];
+	134 [label=Japanese, fontsize=8, group=4];
+	154 [label=German, fontsize=8, group=4];
+	164 [label=French, fontsize=8, group=4];
+	184 [label="Ancient Greek", fontsize=8, group=4];
+	174 [label="Nordic languages", fontsize=8, group=4];
+	1741 [label=Icelandic, fontsize=7, group=4];
+	1141 [label=Semantics, fontsize=7, group=4];
+
+	105 [label=art, fontsize=10, group=5];
+	115 [label=literature, fontsize=8, group=5];
+	125 [label="fine art", fontsize=8, group=5];
+	135 [label=cinema, fontsize=8, group=5];
+	1151 [label=poetry, fontsize=7, group=5];
+	1251 [label="abstract expressionism", fontsize=7, group=5];
+	1252 [label="contemporary art", fontsize=7, group=5];
+
+	100 -- 101;
+	100 -- 102;
+	100 -- 103;
+	100 -- 104;
+	100 -- 105;
+	100 -- 106;
+	100 -- 107;
+
+	107 -- 106;
+	102 -- 106;
+	104 -- 107;
+	100 -- 107;
+	101 -- 106;
+	103 -- 113;
+	103 -- 123;
+	103 -- 133;
+	103 -- 143;
+	103 -- 153;
+	123 -- 104;
+	104 -- 114;
+	104 -- 124;
+	104 -- 134;
+	104 -- 154;
+	104 -- 164;
+	104 -- 174;
+	1741 -- 174;
+	114 -- 1141;
+	107 -- 117;
+	1141 -- 117;
+	117 -- 1171;
+	127 -- 107;
+	137 -- 107;
+	147 -- 107;
+	101 -- 111;
+	105 -- 115;
+	115 -- 1151;
+	105 -- 125;
+	105 -- 135;
+	115 -- 104;
+	125 -- 1251;
+	125 -- 1252;
+	111 -- 1111;
+	111 -- 1112;
+	111 -- 1113;
+	104 -- 184;
+	101 -- 121;
+	106 -- 116;
+	106 -- 126;
+	102 -- 108;
+	102 -- 103;
+	102 -- 1114;
+	111 -- 1114;
+}
